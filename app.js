@@ -16,4 +16,3 @@ var hi =function(number_of_times){
     number_of_times=number_of_times-1
   }
 }
-hi(5)

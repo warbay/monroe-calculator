@@ -1,18 +1,19 @@
-var bob = {
-  first_name:"bob",
-  last_name:"connor",
-  username:"bcl",
-  age:5,
-  email:"bc@em.l",
-  phone:10,
-  full_name:function(){
-    return this.first_name+"🍆"+this.last_name
-  }
-}
+var two_button = document.getElementById("2")
 
-var hi =function(number_of_times){
-  while(number_of_times>0){
-    alert("hi")
-    number_of_times=number_of_times-1
-  }
-}
+var five_button = document.getElementById("5")
+
+
+
+
+var display = document.getElementById("display")
+
+two_button.addEventListener("click", function(){
+  display.value = "2"
+})
+
+
+var display = document.getElementById("display")
+
+five_button.addEventListener("click", function(){
+  display.value = "5"
+})
